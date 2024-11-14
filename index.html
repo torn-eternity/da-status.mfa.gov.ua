@@ -3,19 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт тимчасово недоступний</title>
+    <title>Сайт ДАУ тимчасово недоступний</title>
     <style>
-        body { display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial, sans-serif; text-align: center; }
-        .container { max-width: 600px; }
-        h1 { font-size: 2.5em; color: #333; }
-        p { font-size: 1.2em; color: #666; }
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background-color: #f7f7f7;
+            margin: 0;
+        }
+        .container { 
+            max-width: 600px; 
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            width: 100px; /* Adjust logo size */
+            margin-bottom: 20px;
+        }
+        .image {
+            width: 100%;
+            max-width: 400px; /* Adjust image size */
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        h1 { 
+            font-size: 2.5em; 
+            color: #333; 
+            margin: 0 0 10px;
+        }
+        p { 
+            font-size: 1.2em; 
+            color: #666; 
+            margin: 0;
+        }
+        a { 
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <img src="logo.png" alt="Logo" class="logo">
+        <img src="dip_acad.jpg" class="image">
         <h1>Сайт Дипломатичної академії України тимчасово недоступний</h1>
         <p>Ми працюємо над відновленням.</p>
-        <p>Для связи: <a href="mailto:info@example.com">info@example.com</a></p>
     </div>
 </body>
 </html>
